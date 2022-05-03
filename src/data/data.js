@@ -2,83 +2,120 @@ import iconMarkers from "../components/ui/IconMarkers";
 
 const Data = {
     cities: {
-        "Thel-Izra": {
-            label: 'Тель-Изра',
-            position: [-2, 5],
-            iconType: 'city',
-            description: 'Тель-Изра',
-            icon: iconMarkers.CitiesMarker,
-            hide: false
-        },
         'Nyaron' : {
             label: 'Ньярон',
             position: [-31, 78],
             iconType: 'city',
-            description: 'Ньярон',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Столицей Соларии и в частности края Тохуд является город Ньярон, ' +
+                'который бал назван так в честь Ньяронской башни. Когда-то давно здесь состоялся Ньяронский совет, ' +
+                'после чего в мире началось летоисчесление. Теперь на месте Ньяронской башни величественно стоит Ньяронский дворец, ' +
+                'украшенный знаменитыми на весь мир огромными Птичьими вратами.',
+            icon: iconMarkers.NyaronIcon,
             hide: false
         },
         'Yaryon': {
             label: 'Ярьон',
             position: [-10, 41],
             iconType: 'city',
-            description: 'Ярьон',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Во время Великого Исхода племя Мараха, великого человека севера, обосновалось в этих землях. ' +
+                'Однако через какое-то время он увёл большинство из своего племени, углубляясь все дальше, на север. ' +
+                'Теперь эти земли входят в состав Соларии в качестве края дружбы (Тодофиндлона), столицей которого является Ярьон.',
+            icon: iconMarkers.SolariyaLargeCities,
             hide: false
         },
         'Saardalas': {
             label: 'Саардалас',
             position: [-37, 47],
             iconType: 'city',
-            description: 'Саардалас',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Столица Южных земель Соларии или края Нарцзар (Нарцзарлона), ' +
+                'наместником которого является Кенарион Менэ, лучший кузнец после Кофауттара из числа холодных драконов.',
+            icon: iconMarkers.SolariyaLargeCities,
             hide: false
         },
         'Menyor': {
             label: 'Меньор',
             position: [-41, 85],
             iconType: 'city',
-            description: 'Меньор',
-            icon: iconMarkers.CitiesMarker,
-            hide: false
-        },
-        'Phantazm': {
-            label: 'Фантазм',
-            position: [-13, 97],
-            iconType: 'city',
-            description: 'Фантазм',
-            icon: iconMarkers.CitiesMarker,
-            hide: false
-        },
-        'Farbru': {
-            label: 'Фарбру',
-            position: [7, 55],
-            iconType: 'city',
-            description: 'Беньор',
-            icon: iconMarkers.CitiesMarker,
-            hide: false
-        },
-        'El-Berun': {
-            label: 'Эль-Берун',
-            position: [14, 45],
-            iconType: 'city',
-            description: 'Беньор',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Столица Солифортолона (Земель Солнечных Врат). Один из самых старых городов Соларии. ' +
+                'Основан наместиком Солнечного края Адерном, третьим кханари и братом Их Божественных величеств.',
+            icon: iconMarkers.SolariyaLargeCities,
             hide: false
         },
         'Benyor': {
             label: 'Беньор',
             position: [-21, 70],
             iconType: 'city',
-            description: 'Беньор',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Беньор - город-храм, главный храм Солнца, бога Игноса, где несут свою службу царица Эйруин и её сотня гарпий.',
+            icon: iconMarkers.BenyorIcon,
+            hide: false
+        },
+        'Phantazm': {
+            label: 'Фантазм',
+            position: [-13, 97],
+            iconType: 'city',
+            description: 'У подножия гор Призрачных скрывается город Фантазм, в котором находится большая тюрьма для провинившихся и нарувшивших общий порядок и законы Соларии.',
+            icon: iconMarkers.SolariyaSmallCities,
+            hide: false
+        },
+        'Farbru': {
+            label: 'Фарбру',
+            position: [7, 55],
+            iconType: 'city',
+            description: 'Один из городов, где когда-то обосновалось племя Мараха, открывателя северных земель.',
+            icon: iconMarkers.SolariyaSmallCities,
+            hide: false
+        },
+        'El-Berun': {
+            label: 'Эль-Берун',
+            position: [14, 45],
+            iconType: 'city',
+            description: 'Город-порт, главная торговая точка на пути в Ма-Раах.',
+            icon: iconMarkers.SolariyaPorts,
             hide: false
         },
         'Aulhunyor': {
             label: 'Аулхуньор',
             position: [-56, 117],
             iconType: 'city',
-            description: 'Аулхуньор',
+            description: 'Аулхуньор - первый город, основанный драконами на солнечном острове.' +
+                '',
+            icon: iconMarkers.SolariyaSmallCities,
+            hide: false
+        },
+        'El-Thimiun': {
+            label: 'Эль-Тимиун',
+            position: [-53.8, 89],
+            iconType: 'port',
+            description: 'Один из первых южных портов Соларии, основанный Адерном Солифортононом, ' +
+                'предназначенный для связи с архипелагом Ирлот. ' +
+                'Входит в состав края Солифорото.' +
+                '',
+            icon: iconMarkers.SolariyaPorts,
+            hide: false
+        },
+        'El-Bernus': {
+            label: 'Эль-Бернус',
+            position: [-51, 57],
+            iconType: 'port',
+            description: 'Южный порт Соларии, предназначенный для связи с архипелагом Ирлот. Входит в состав края Нарцзар.' +
+                '',
+            icon: iconMarkers.SolariyaPorts,
+            hide: false
+        },
+        'El-Khun': {
+            label: 'Эль-Кхун',
+            position: [-52, 43.8],
+            iconType: 'port',
+            description: 'Южный порт Соларии, предназначенный для связи с архипелагом Ирлот. Входит в состав края Нарцзар.' +
+                '',
+            icon: iconMarkers.SolariyaPorts,
+            hide: false
+        },
+        "Thel-Izra": {
+            label: 'Тель-Изра',
+            position: [-2, 5],
+            iconType: 'city',
+            description: 'Тель-Изра - столица людского государства, основанная Адартом Златовласым.',
             icon: iconMarkers.CitiesMarker,
             hide: false
         },
@@ -86,7 +123,8 @@ const Data = {
             label: 'Тель-Яфф',
             position: [-22, -11.5],
             iconType: 'city',
-            description: 'Тель-Яфф',
+            description: 'Тель-Яфф расположен у южной части хребта Цзардалар и окружен мощными стенами. ' +
+                'Один из королей Арона воздвиг их, чтобы защищать королевство от набегов воинственных Фанхар.',
             icon: iconMarkers.CitiesMarker,
             hide: false
         },
@@ -94,7 +132,7 @@ const Data = {
             label: 'Бель-Мина',
             position: [-13.5, -4],
             iconType: 'city',
-            description: 'Бель-Мина',
+            description: 'Бель-Мина примечателен тем, что здесь находится единственный в Арона храм Солнца. Арона - не ярые поклонники бога Игноса.',
             icon: iconMarkers.CitiesMarker,
             hide: false
         },
@@ -102,7 +140,9 @@ const Data = {
             label: 'Тель-Рафф',
             position: [8.6, -8.7],
             iconType: 'city',
-            description: 'Тель-Рафф',
+            description: 'Город был основан рыцарем Арье Тафраффом, чей мятеж Огненных мечей прогремел на весь континент. ' +
+                'После того, как король Арона успешно подавил восстание, город полностью пришел в упадок. ' +
+                'В королевстве эти земли не любят, а живущих там осталось мало - в основном те, кто помнит о восстании Арье, истории о котором переходят там из уст в уста.',
             icon: iconMarkers.CitiesMarker,
             hide: false
         },
@@ -110,7 +150,10 @@ const Data = {
             label: 'Эш-Яр',
             position: [9, 9.3],
             iconType: 'city',
-            description: 'Эш-Яр',
+            description: 'Через этот город проходит множество торговцев, направляясь во все стороны света. ' +
+                'Однако на севере проживают дикие гарпии, а чуть западнее находятся гиблые болотистые земли, ' +
+                'обуянные ядовитым смрадом, чей феномен ещё не до конца изучен и чья гниль поражает случайно забредших туда. ' +
+                'Поэтому Эш-Яр и близлежащие от него территории тщательно охраняются. ',
             icon: iconMarkers.CitiesMarker,
             hide: false
         },
@@ -118,7 +161,8 @@ const Data = {
             label: 'Бель-Шейв',
             position: [18, -5],
             iconType: 'city',
-            description: 'Бель-Шейв',
+            description: 'Бель-Шейв находится глубоко в лесах и найти его не так-то просто: ' +
+                'люди там предпочитают не вырубать леса, так как влияние гарпий доходит даже до сюда.',
             icon: iconMarkers.CitiesMarker,
             hide: false
         },
@@ -126,126 +170,200 @@ const Data = {
             label: 'Адир\'рабад',
             position: [-34, -39.5],
             iconType: 'city',
-            description: 'Адир\'рабад',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Адир\'рабад - последний жизннный оплот, расположившийся перед Убогими землями. ' +
+                'Далее, на юге распростёрлась Красная пустыня, чей песок слишком горяч, чтобы жить там.',
+            icon: iconMarkers.NarimiyaCitiesIcon,
             hide: false
         },
         'Malighazdar': {
             label: 'Малигхасдар',
             position: [-22, -53.5],
             iconType: 'city',
-            description: 'Малигхасдар',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Малигхасдар считается второй столицей Наримии. ' +
+                'Крал Сефу из династии Сеттигидов любил прибрежные пески близ Дикого архипелага, ' +
+                'поэтому из-за частых поездок основал там свою резеденцию, которая вскоре перевратилась в большой город, ' +
+                'угодный правителям Наримии. Так же город называют колыбелью кралов. ',
+            icon: iconMarkers.NarimiyaCitiesIcon,
             hide: false
         },
         'Fledsilhsain': {
             label: 'Фледсильхсаин',
             position: [-14.5, -49.5],
             iconType: 'city',
-            description: 'Фледсильхсаин',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Фледсильхсаин - столица Наримии, основанная советом Четырех. ' +
+                'Один из самых больших городов в мире, по красоте который может потягаться даже со столицей мира - Няроном.',
+            icon: iconMarkers.FledsilhsainIcon,
             hide: false
         },
         'Sha-Khen': {
             label: 'Ша-Кен',
             position: [-3.5, -49],
             iconType: 'city',
-            description: 'Ша-Кен',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Известен тем, что собирает в себя всех преступиников в Наримии, из-за находящейся в городе тюрьмы.',
+            icon: iconMarkers.NarimiyaCitiesIcon,
             hide: false
         },
-        'Waina': {
+        'Vaina': {
             label: 'Вайна',
             position: [31.3, -48.5],
             iconType: 'city',
-            description: 'Вайна',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Столичное и самое крупное население немногочисленных Банук.',
+            icon: iconMarkers.VainaIcon,
             hide: false
         },
         'Halar': {
             label: 'Халар',
             position: [43, -26.1],
             iconType: 'city',
-            description: 'Халар',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Бывшее название города - Мер\'зис. Мер\'зис был послением, основаным доблестным воином Халаром, ' +
+                'бежавшим из Банук в разгар первой войны на континенте. ' +
+                'В годы войны здесь произошла Халарская резня, в ходе которой скончались многие последователи Халара, включая его самого. ' +
+                'Ма-Раах не забыли его деяний, и с тех пор город носит название героя, не позабывшего о своей чести.',
+            icon: iconMarkers.MaRaathSmallCities,
             hide: false
         },
         'Maa\'drull': {
             label: 'Маа\'друлл',
             position: [46, -13],
             iconType: 'city',
-            description: 'Маа\'друлл',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Маа\'друлл - один из первых городов, основанных в землях, которые открытыл первый король Ма-Раах, Боруг.',
+            icon: iconMarkers.MaRaathSmallCities,
             hide: false
         },
         'Adir\'drull': {
             label: 'Адир\'друлл',
             position: [46.7, 2.6],
             iconType: 'city',
-            description: 'Адир\'друлл',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Адир\'друлл - столица всего северного королевства. Именно здесь во время Великого Исхода Марах, великий северянин, ' +
+                'объявил об окончании своего похода и основании королевства.',
+            icon: iconMarkers.MaRaathLargeCities,
             hide: false
         },
         'Wind\'drull': {
             label: 'Винд\'друлл',
             position: [47.10, 19.4],
             iconType: 'city',
-            description: 'Винд\'друлл',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Винд\'друлл - второй по численности населения город в Ма-Раах. Основан первым королем Боругом.',
+            icon: iconMarkers.MaRaathLargeCities,
             hide: false
         },
         'Harstad': {
             label: 'Харстад',
             position: [53.5, 25],
             iconType: 'city',
-            description: 'Харстад',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Ма-раахский порт. Основан королем Бьорном, ' +
+                'мечтавшим всю свою жизнь начать покорять морские просторы и скрывавшиеся в них новые земли, ' +
+                'однако рано умер, успев передать свою мечту маленькому сыну, юному королю Мерину.',
+            icon: iconMarkers.MaRaathPorts,
             hide: false
         },
         'Anhelm': {
             label: 'Анхельм',
             position: [42.6, 32.8],
             iconType: 'city',
-            description: 'Анхельм',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Одно из поселений Ма-Раах, стоящее у реки Хариэльвен.',
+            icon: iconMarkers.MaRaathSmallCities,
             hide: false
         },
         'Thenber': {
             label: 'Тенбер',
             position: [41, 51],
             iconType: 'city',
-            description: 'Тенбер',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Самое восточное северное поселение.',
+            icon: iconMarkers.MaRaathSmallCities,
             hide: false
         },
         'Gaumyor': {
             label: 'Гаумьор',
-            position: [31.4, 51],
+            position: [30, 51],
             iconType: 'city',
-            description: 'Гаумьор',
-            icon: iconMarkers.CitiesMarker,
+            description: 'Город-порт Гаумьор был сонован королем Харальдом, сыном первого короля Ма-Раах - Бьорна. ' +
+                'Харальд, желая продемонстрировать великим драконам, держателям дара огня, знания своего народа на Ньяронском совете, построил первый порт и отплыл из него в Соларию на первом в мире корабле. ' +
+                'Корабль носил имя его дочери Эйлы. Сейчас Гаумьор является основной торговой точкой с Соларией на территории северного королевства.',
+            icon: iconMarkers.MaRaathPorts,
             hide: false
         },
 
 
     },
-    // seas: {
-    //     'Blue sea': {
-    //         label: 'Синее море',
-    //         position: [5, 36],
-    //         iconType: 'sea',
-    //         description: 'Синее море',
-    //         icon: iconMarkers.SeasMarker,
-    //         hide: false
-    //     }
-    // },
     countries: {
         Solaria: {
             label: 'Солария',
             position: [-27, 56],
             iconType: 'dragon',
-            description: 'Солария - страна драконья',
+            description: "Солария - дом драконов, территория материка, на которую прилетели драконы во время Великого исхода, " +
+                "основав здесь свое государство.",
             icon: iconMarkers.DragonMarker,
+            hide: true
+        },
+        Narimiya: {
+            label: 'Наримия',
+            position: [-15, -38],
+            iconType: 'narimiya',
+            description: 'Наримия - государство, вышедшее из племени первых людей, которых возглавлял в своем походе Нарим, отправившись на запад, к горам Цзардалар.',
+            icon: iconMarkers.NarimiyaIcon,
+            hide: true
+        },
+        'Ma-Raath': {
+            label: 'Ма-Раах',
+            position: [42, -5],
+            iconType: 'narimiya',
+            description: 'Ma-Раах - великое государство севера, основанное Марахом, великим первооткрывателем. ' +
+                'Ма-Раах очень дружны с драконами, поэтому они образуют с Соларией многовековой военный, политический и торговый союз. ' +
+                'Короли Ма-Раах обрели славу первооткрывателей: король Мерин открыл Летающие острова (Меринге), ' +
+                'его дочь, Эйра Великая, нанесла на мировую карту Туманные острова.',
+            icon: iconMarkers.MaRaathIcon,
+            hide: true
+        },
+        Banuk: {
+            label: 'Банук',
+            position: [35, -45.5],
+            iconType: 'banuk',
+            description: 'Банук вышли из пелемени первых людей, чей предводитель остался неизвестным. ' +
+                'Они, обосновавшись на северо-западе, предпочли вести отстранённый образ жизни, ' +
+                'в отличие от всех остальных развитых государств, вышедших из племен первых людей. ' +
+                'Однако позже Банук развязали первую войну на континенте, столвнувшись в проитовостоянии с Ма-Раах, за что были наказаны драконами.',
+            icon: iconMarkers.BanukIcon,
+            hide: true
+        },
+        Arona: {
+            label: 'Арона',
+            position: [-2, -10],
+            iconType: 'arona',
+            description: 'Арона - государство людей, вышедшее из племени Адарта. ' +
+                'Адарт, отказавшись от драконьего дара в виде огня, отошел на запад за горы Лихтфер, ' +
+                'основав там страну "свободных людей". ' +
+                'Однако, не получив огня, люди арона обрекли себя на быстротечность собственного существования' +
+                ' - их средняя продолжительность жизни состовляет около 60 лет.',
+            icon: iconMarkers.AronaIcon,
+            hide: true
+        },
+        Yuanhars: {
+            label: 'Юэнхар',
+            position: [-28, 5],
+            iconType: 'yuanhars',
+            description: 'Одно из диких разрозненных племён Фанхар, которые, отделившись от Хар, не получили огня. ' +
+                'Юэнхар более прогрессивней своих южных соседей, однако менее воинственно.',
+            icon: iconMarkers.YuanharsIcon,
+            hide: true
+        },
+        Mavanhars: {
+            label: 'Маванхар',
+            position: [-46.5, -19],
+            iconType: 'mavanhars',
+            description: 'Одно из диких разрозненных племён Фанхар, которые, отделившись от Хар, не получили огня. ' +
+                'Маванхар, располагаясь в бассейне братских рек, обладает воинственным духом и живет засчет постоянных набегов на своих северных соседей - Юэнхар.',
+            icon: iconMarkers.MavanharsIcon,
+            hide: true
+        },
+        Hunhars: {
+            label: 'Хунхары',
+            position: [10, -54],
+            iconType: 'hunhars',
+            description: 'Хунхары - племя, которое когда-то отделилось от племени Нарима и отправилось на север разведывать территории, ' +
+                'но так и не вернулась обратно. Теперь Хунхары образуют самостоятельное государственное образование ' +
+                'и даже совершают набеги на своих соседей - Банук и Наримию. Видимо, большинству из пелемени Хар присуща воинственность духа.',
+            icon: iconMarkers.HunharsIcon,
             hide: true
         }
     }

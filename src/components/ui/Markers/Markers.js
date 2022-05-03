@@ -1,6 +1,6 @@
 import React from "react";
 import {Marker} from "react-leaflet";
-import Popups from "../Popup";
+import Popups from "../Popups";
 
 const Markers = ({currentZoom, legend}) => {
 
@@ -11,7 +11,7 @@ const Markers = ({currentZoom, legend}) => {
 
         return (
             <Marker position={popup.position} icon={popup.icon}>
-                <Popups label={popup.label}/>
+                <Popups label={popup.label} description={popup.description}/>
             </Marker>
         );
     });

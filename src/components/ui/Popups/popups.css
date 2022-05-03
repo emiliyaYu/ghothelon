@@ -1,0 +1,39 @@
+.popups .leaflet-popup-content-wrapper {
+    padding: 0;
+    border-radius: 0;
+    font-family: "avenir next", sans-serif;
+}
+.titleContainer {
+    position: relative;
+    padding: 10px;
+}
+
+.titleContainer::before {
+    content: "";
+    background-image: url('../../../assets/icons/pattern.png');
+    background-size: 30px 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.75;
+
+}
+.title {
+    color: black;
+    font-weight: 900;
+    padding: 10px;
+    font-size: 28px;
+    position: relative;
+}
+.popups .leaflet-popup-content {
+    margin: 0;
+}
+.popups a.leaflet-popup-close-button {
+    color:black;
+}
+.description {
+    padding: 10px;
+    font-size: 14px;
+}
