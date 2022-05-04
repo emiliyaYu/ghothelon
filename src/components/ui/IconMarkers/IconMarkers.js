@@ -2,7 +2,7 @@ import L from 'leaflet';
 
 const icons = {
     cities: require('../../../assets/icons/castle.png'),
-    sea: require('../../../assets/icons/sea.png'),
+    sea: require('../../../assets/icons/water.png'),
     dragon: require('../../../assets/icons/dragon.png'),
     mavanhars: require('../../../assets/icons/mavanhars.png'),
     yuanhars: require('../../../assets/icons/yuanhars.png'),
@@ -21,7 +21,8 @@ const icons = {
     maRaathPorts: require('../../../assets/icons/maRaath-ports.png'),
     vaina: require('../../../assets/icons/vaina.png'),
     narimiyaCities: require('../../../assets/icons/narimiya-cities.png'),
-    fledsilhsain: require('../../../assets/icons/fledsilhsain.png')
+    fledsilhsain: require('../../../assets/icons/fledsilhsain.png'),
+    rock: require('../../../assets/icons/stone.png')
 
 }
 
@@ -113,7 +114,7 @@ export const MaRaathIcon = L.icon({
     iconRetinaUrl: icons['ma-raath'],
     iconAnchor: [15, 38],
     popupAnchor: [6, -35],
-    iconSize: [50, 50]
+    iconSize: [40, 40]
 })
 
 export const MaRaathPorts = L.icon({
@@ -186,4 +187,20 @@ export const NarimiyaCitiesIcon = L.icon({
     iconAnchor: [15, 30],
     popupAnchor: [6, -35],
     iconSize: [35, 35]
+})
+
+export const SeasIcon = L.icon({
+    iconUrl: icons['sea'],
+    iconRetinaUrl: icons['sea'],
+    iconAnchor: [15, 30],
+    popupAnchor: [6, -35],
+    iconSize: [20, 20]
+})
+
+export const MountainsIcon = L.icon({
+    iconUrl: icons['rock'],
+    iconRetinaUrl: icons['rock'],
+    iconAnchor: [15, 30],
+    popupAnchor: [6, -35],
+    iconSize: [40, 40]
 })

@@ -306,7 +306,7 @@ const Data = {
         },
         'Ma-Raath': {
             label: 'Ма-Раах',
-            position: [42, -5],
+            position: [40, -5],
             iconType: 'narimiya',
             description: 'Ma-Раах - великое государство севера, основанное Марахом, великим первооткрывателем. ' +
                 'Ма-Раах очень дружны с драконами, поэтому они образуют с Соларией многовековой военный, политический и торговый союз. ' +
@@ -366,6 +366,266 @@ const Data = {
             icon: iconMarkers.HunharsIcon,
             hide: true
         }
+    },
+    seas: {
+        OdarrhuuOcean: {
+            label: 'Океан Одаррхуу',
+            position: [-50, -100],
+            iconType: 'hunhars',
+            description: 'Океан Одаррхуу',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        ElyegnosOcean: {
+            label: 'Океан Эльейгнос',
+            position: [50, 80],
+            iconType: 'hunhars',
+            description: 'Океан Эльейгнос',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        BlueSea: {
+            label: 'Синее море',
+            position: [4, 38],
+            iconType: 'hunhars',
+            description: 'Синее море',
+            icon: iconMarkers.SeasIcon,
+            hide: false
+        },
+        HaraldSea: {
+            label: 'Море Харальда',
+            position: [26, 28],
+            iconType: 'hunhars',
+            description: 'Море Харальда',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        EvksinSea: {
+            label: 'Эвксинское море',
+            position: [-44, -30],
+            iconType: 'hunhars',
+            description: 'Эвксинское море',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        WildSea: {
+            label: 'Дикое море',
+            position: [-44, -55],
+            iconType: 'hunhars',
+            description: 'Дикое море',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        SmokeSea: {
+            label: 'Дымное море',
+            position: [40, -55],
+            iconType: 'hunhars',
+            description: 'Дымное море',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        SunStrait: {
+            label: 'Солнечный пролив',
+            position: [-54.6, 105],
+            iconType: 'hunhars',
+            description: 'Солнечный пролив',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        IranshherBay: {
+            label: 'Залив Ираншхер',
+            position: [-44, 15],
+            iconType: 'hunhars',
+            description: 'Залив Ираншхер',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        SolberhRiver: {
+            label: 'Река Солберх',
+            position: [-47, 100],
+            iconType: 'hunhars',
+            description: 'Река Солберх',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        KhunberhRiver: {
+            label: 'Река Кхунберх',
+            position: [-40, 70],
+            iconType: 'hunhars',
+            description: 'Река Кхунберх',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        KhiringulRiver: {
+            label: 'Река Кхирингул',
+            position: [-8, 70],
+            iconType: 'hunhars',
+            description: 'Река Кхирингул',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        MalaghulRiver: {
+            label: 'Река Малагхул',
+            position: [-45, 34],
+            iconType: 'hunhars',
+            description: 'Река Малагхул',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        CzilighulRiver: {
+            label: 'Река Цзилигхул',
+            position: [-50, 25],
+            iconType: 'hunhars',
+            description: 'Река Цзилигхул',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        AghulRiver: {
+            label: 'Река Aгхул',
+            position: [-50, 31],
+            iconType: 'hunhars',
+            description: 'Река Агхул',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        InlandSea: {
+            label: 'Внутреннее море',
+            position: [-22, 13.4],
+            iconType: 'hunhars',
+            description: 'Внутреннее море',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        BasinFraternalRivers: {
+            label: 'Бассейн Братских рек',
+            position: [-52, -16],
+            iconType: 'hunhars',
+            description: 'Бассейн Братских рек',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        HunRiver: {
+            label: 'Река Хун',
+            position: [-7, -53],
+            iconType: 'hunhars',
+            description: 'Река Хун',
+            icon: iconMarkers.SeasIcon,
+            hide: true
+        },
+        HildelvenRiver: {
+            label: 'Река Хилдэльвен',
+            position: [42, -33],
+            iconType: 'hunhars',
+            description: 'Река Хилдэльвен',
+            icon: iconMarkers.SeasIcon,
+            hide: false
+        },
+        HardеlvenRiver: {
+            label: 'Река Хардэльвен',
+            position: [40, -29],
+            iconType: 'hunhars',
+            description: 'Река Хардэльвен',
+            icon: iconMarkers.SeasIcon,
+            hide: false
+        },
+        KelLake: {
+            label: 'Озеро Кель',
+            position: [42.5, -29],
+            iconType: 'hunhars',
+            description: 'Озеро Кель',
+            icon: iconMarkers.SeasIcon,
+            hide: false
+        },
+        BerhtelvenRiver: {
+            label: 'Река Берхтэльвен',
+            position: [45, -4],
+            iconType: 'hunhars',
+            description: 'Река Берхтэльвен',
+            icon: iconMarkers.SeasIcon,
+            hide: false
+        },
+        GerelvenRiver: {
+            label: 'Река Герэльвен',
+            position: [47.6, 0.4],
+            iconType: 'hunhars',
+            description: 'Река Герэльвен',
+            icon: iconMarkers.SeasIcon,
+            hide: false
+        },
+        HarielvenRiver: {
+            label: 'Река Хариэльвен',
+            position: [37, 40],
+            iconType: 'hunhars',
+            description: 'Река Хариэльвен',
+            icon: iconMarkers.SeasIcon,
+            hide: false
+        },
+        MundRiver: {
+            label: 'Река Мунд',
+            position: [37, 53],
+            iconType: 'hunhars',
+            description: 'Река Мунд',
+            icon: iconMarkers.SeasIcon,
+            hide: false
+        },
+        HenRiver: {
+            label: 'Река Хен',
+            position: [35, 55],
+            iconType: 'hunhars',
+            description: 'Река Хен',
+            icon: iconMarkers.SeasIcon,
+            hide: false
+        },
+        HrotRiver: {
+            label: 'Река Хрот',
+            position: [33, 55],
+            iconType: 'hunhars',
+            description: 'Река Хрот',
+            icon: iconMarkers.SeasIcon,
+            hide: false
+        }
+    },
+    mountains: {
+        GhostMountains: {
+            label: 'Призрачные горы',
+            position: [-15, 117],
+            iconType: 'city',
+            description: 'Призрачные горы',
+            icon: iconMarkers.MountainsIcon,
+            hide: false
+        },
+        LihtferMountains: {
+            label: 'Горы Лихтфер',
+            position: [-30, 30],
+            iconType: 'city',
+            description: 'Горы Лихтфер',
+            icon: iconMarkers.MountainsIcon,
+            hide: false
+        },
+        ZcardalarMountains: {
+            label: 'Горы Цзардалар',
+            position: [-10, -25],
+            iconType: 'city',
+            description: 'Горы Цзардалар',
+            icon: iconMarkers.MountainsIcon,
+            hide: false
+        },
+        HarpiesMountains: {
+            label: 'Горы Гарпий',
+            position: [37, 5],
+            iconType: 'city',
+            description: 'Горы Гарпий',
+            icon: iconMarkers.MountainsIcon,
+            hide: false
+        },
+        HighSteppes: {
+            label: 'Высокие степи',
+            position: [27, -33],
+            iconType: 'city',
+            description: 'Высокие степи',
+            icon: iconMarkers.MountainsIcon,
+            hide: false
+        },
     }
 }
 
