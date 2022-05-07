@@ -31,7 +31,6 @@ const Map = () => {
         attributionControl={false}
         maxBoundsViscosity={viscosity}
         zoomControl={false}
-        scrollWheelZoom={false}
         fullscreenControl={true}
       >
         <TileLayer url="tiles/{z}/{x}/{y}.png" noWrap={true} />
