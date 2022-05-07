@@ -1,5 +1,8 @@
 .map {
     height: 500px;
     width: 932px;
-    margin: 50px auto;
+}
+.leaflet-control-fullscreen a {
+    background: url("../../../assets/icons/virtual-reality.png") !important;
+    background-size: 30px 30px !important;
 }

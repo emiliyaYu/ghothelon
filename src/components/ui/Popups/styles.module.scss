@@ -1,0 +1,81 @@
+@mixin popupContainer {
+  position: relative;
+  padding: 10px;
+}
+
+@mixin popupTitle {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+  padding: 10px;
+}
+
+.solariyaPopup {
+ @include popupContainer;
+  &:before {
+    @include popupTitle;
+    background-image: url('../../../assets/icons/6196016.jpg');
+    background-size: 500px 300px;
+  }
+}
+
+.harPopup {
+  @include popupContainer;
+  &:before {
+    @include popupTitle;
+    background-image: url('../../../assets/icons/har.png');
+    background-size: 90px 90px;
+    opacity: 0.6;
+  }
+}
+
+.maRaathPopup {
+  @include popupContainer;
+  &:before {
+    @include popupTitle;
+    background: #457b9d url('../../../assets/icons/runes.png') no-repeat 200px;
+    background-size: 60px 60px;
+    opacity: 1;
+  }
+}
+
+.aronaPopup {
+  @include popupContainer;
+  &:before {
+    @include popupTitle;
+    background: #c9ada7 url('../../../assets/icons/floral.png') no-repeat 245px;
+    background-size: 50px 50px;
+  }
+}
+
+.banukPopup {
+  @include popupContainer;
+  &:before {
+    @include popupTitle;
+    background: url('../../../assets/icons/16691647.jpg') no-repeat center;
+    background-size: 500px 500px;
+  }
+}
+.noMansLandPopup {
+  @include popupContainer;
+  &:before {
+    @include popupTitle;
+    background-color: #6c757d;
+  }
+}
+
+.title {
+  color: black;
+  font-weight: 900;
+  font-size: 28px;
+  position: relative;
+  margin: 0;
+}
+.description {
+  padding: 10px;
+  font-size: 14px;
+}

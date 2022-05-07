@@ -1,0 +1,14 @@
+.zoomIcon {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+  border: 2px solid #815c42;
+    box-shadow: none;
+}
+
+.leaflet-bar a.leaflet-disabled {
+   background-color: #d9cdc7;
+}

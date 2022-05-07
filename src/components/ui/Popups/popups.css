@@ -1,0 +1,11 @@
+.popups .leaflet-popup-content-wrapper {
+    padding: 0;
+    border-radius: 0;
+    font-family: "Medusa Gothic", sans-serif;
+}
+.popups .leaflet-popup-content {
+    margin: 0;
+}
+.popups a.leaflet-popup-close-button {
+    color:black;
+}

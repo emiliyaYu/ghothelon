@@ -1,0 +1,33 @@
+.headerContainer {
+  height: 100px;
+  background-color: #9A9A9AE5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Medusa Gothic", sans-serif;
+  padding: 0 40px;
+}
+.headerLogo {
+  display: flex;
+  align-items: center;
+}
+.headerTitle {
+  color: #37313C;
+  margin-left: 10px;
+}
+.headerIcon {
+  $iconSize: 70px;
+  width: $iconSize;
+  height: $iconSize;
+}
+.headerLink {
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+  &:hover {
+    $textShadow: 2px 2px 3px;
+    color:#FFF4D8;
+    text-shadow: $textShadow #FFF4D8;
+  }
+}

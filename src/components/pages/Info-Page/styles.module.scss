@@ -1,0 +1,26 @@
+.infoContainer {
+  font-family: "Medusa Gothic", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  margin: 0 300px;
+  height: 100%;
+  padding: 20px 50px;
+}
+.infoHeader{
+  font-size: 14px;
+  color: #919191;
+  span:first-child {
+    margin-right: 20px;
+  }
+}
+.qA {
+  font-size: 17px;
+}
+
+.mainTitle {
+  margin-top: 10px;
+}
+.infoTitle {
+  font-weight: 900;
+}
