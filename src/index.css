@@ -4,10 +4,17 @@
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Medusa Gothic';
+  src: url("assets/fonts/18365.ttf") format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 
 body {
   margin: 0;
   font-family: "Avenir Next", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFF4D8;
 }
