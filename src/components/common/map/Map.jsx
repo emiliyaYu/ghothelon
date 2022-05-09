@@ -7,7 +7,7 @@ import Markers from '../../ui/Markers';
 import MapEvents from './MapEvents';
 import TextMarkers from '../../ui/TextMarkers';
 import ZoomsControl from '../../ui/ZoomsControl';
-import PopupData from '../../../data/popupData';
+import PopupData from '~/data/popupData';
 import './map.css';
 import 'leaflet-fullscreen/dist/leaflet.fullscreen.css';
 
