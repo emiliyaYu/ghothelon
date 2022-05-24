@@ -6,6 +6,12 @@
   justify-content: space-between;
   font-family: "Medusa Gothic", sans-serif;
   padding: 0 40px;
+  min-width: 320px;
+
+  @media screen and (min-width: 0px) and (max-width: 470px) {
+    padding: 0 10px;
+  }
+
 }
 .headerLogo {
   display: flex;
@@ -14,11 +20,21 @@
 .headerTitle {
   color: #37313C;
   margin-left: 10px;
+
+  @media screen and (min-width: 0px) and (max-width: 470px) {
+    font-size: 14px;
+  }
 }
 .headerIcon {
   $iconSize: 70px;
   width: $iconSize;
   height: $iconSize;
+
+  @media screen and (min-width: 0px) and (max-width: 470px) {
+    $iconSize: 50px;
+    width: $iconSize;
+    height: $iconSize;
+  }
 }
 .headerLink {
   font-size: 20px;
@@ -29,5 +45,9 @@
     $textShadow: 2px 2px 3px;
     color:#FFF4D8;
     text-shadow: $textShadow #FFF4D8;
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 470px) {
+  font-size: 12px;
   }
 }
