@@ -6,3 +6,23 @@
     background: url("../../../assets/icons/virtual-reality.png") !important;
     background-size: 30px 30px !important;
 }
+
+@media screen and (max-width: 930px) {
+    .map {
+        width: 650px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .map {
+        width: 450px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px){
+    .map {
+        width: 250px;
+    }
+}
